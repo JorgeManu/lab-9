@@ -8,7 +8,7 @@ RUN git clone https://github.com/JorgeManu/lab-9.git
 
 WORKDIR /app/lab-9
 
-RUN dotnet publish -c Release -o out
+RUN dotnet publish BlazingPizza.csproj -c Release -o out
 
 WORKDIR /app/lab-9/out
 
